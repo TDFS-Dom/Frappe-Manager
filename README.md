@@ -11,7 +11,7 @@
 
 *A powerful CLI tool that streamlines the entire lifecycle of Frappe applications using Docker - from development to deployment.*
 
-[Quick Start](#-quick-start) • [Documentation](https://github.com/rtCamp/Frappe-Manager/wiki) • [Examples](#-examples) • [Support](#-support)
+[Quick Start](#-quick-start) • [Documentation](https://github.com/TDFS-Dom/Frappe-Manager/wiki) • [Examples](#-examples) • [Support](#-support)
 
 </div>
 
@@ -70,7 +70,7 @@
 pipx install frappe-manager 
 
 # Install Frappe Manager (latest develop)
-pipx install git+https://github.com/rtcamp/frappe-manager@develop 
+pipx install git+https://github.com/TDFS-Dom/Frappe-Manager@develop 
 
 # Setup shell completion
 fm --install-completion
@@ -119,7 +119,7 @@ fm shell mysite      # Access shell
 
 ## 📖 Documentation
 
-Visit our [Wiki](https://github.com/rtCamp/Frappe-Manager/wiki) for:
+Visit our [Wiki](https://github.com/TDFS-Dom/Frappe-Manager/wiki) for:
 - 📋 Detailed guides
 - ⚙️ Configuration options
 - 💡 Best practices
@@ -127,8 +127,8 @@ Visit our [Wiki](https://github.com/rtCamp/Frappe-Manager/wiki) for:
 
 ## 🤝 Support
 
-- 🐛 [Report issues](https://github.com/rtCamp/Frappe-Manager/issues)
-- 💬 [Discussions](https://github.com/rtCamp/Frappe-Manager/discussions)
+- 🐛 [Report issues](https://github.com/TDFS-Dom/Frappe-Manager/issues)
+- 💬 [Discussions](https://github.com/TDFS-Dom/Frappe-Manager/discussions)
 - 🌟 Star us on GitHub!
 
 ## 👏 Credits

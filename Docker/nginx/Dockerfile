@@ -1,7 +1,7 @@
 FROM python:3.11 AS builder
 
 LABEL author=rtCamp
-LABEL org.opencontainers.image.source=https://github.com/rtcamp/Frappe-Manager
+LABEL org.opencontainers.image.source=https://github.com/TDFS-Dom/Frappe-Manager
 
 RUN pip install jinja2-cli pyinstaller frappe-bench
 RUN pyinstaller --onefile --hidden-import __future__ $(which jinja2)

@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-This issue tracker is only for issues related to Frappe-Manager. Please use https://github.com/rtcamp/frappe-manager/discussions for support questions.
+This issue tracker is only for issues related to Frappe-Manager. Please use https://github.com/TDFS-Dom/Frappe-Manager/discussions for support questions.
 
 **Describe the bug**
 A clear and concise description of what the bug is.

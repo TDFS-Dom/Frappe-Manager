@@ -38,7 +38,7 @@ TestSiteReachability() {
 
 MigrationToLatest() {
     if [ -n "${GITHUB_REF_TYPE}" ] && [ -n "${GITHUB_REF_NAME}" ]; then
-            pip install -U "git+https://github.com/rtCamp/Frappe-Manager.git@${GITHUB_REF_NAME}"
+            pip install -U "git+https://github.com/TDFS-Dom/Frappe-Manager.git@${GITHUB_REF_NAME}"
     else
         # Fallback for local testing
         pip install -U frappe-manager

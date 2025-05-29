@@ -31,8 +31,8 @@ services:
     environment:
       ACME_HTTP_CHALLENGE_LOCATION: false
     ports:
-      - "80:80"
-      - "443:443"
+      - "8080:80"
+      - "8443:443"
     restart: always
     volumes:
       - "./nginx-proxy/certs:/etc/nginx/certs"

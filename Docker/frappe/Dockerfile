@@ -1,7 +1,7 @@
 FROM ubuntu:22.04 AS bench
 
 LABEL author=rtCamp
-LABEL org.opencontainers.image.source=https://github.com/rtcamp/Frappe-Manager
+LABEL org.opencontainers.image.source=https://github.com/TDFS-Dom/Frappe-Manager
 
 ARG PYTHON_VERSION=3.12.0
 ARG PREBAKE_APPS='erpnext:version-15,hrms:version-15'

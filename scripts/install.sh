@@ -196,7 +196,7 @@ handle_root() {
 
 install_fm_dev() {
     info_blue "Installing frappe-manager from development branch..."
-    pip3 install --user --upgrade --force-reinstall --break-system-packages git+https://github.com/rtCamp/Frappe-Manager.git@develop
+    pip3 install --user --upgrade --force-reinstall --break-system-packages git+https://github.com/TDFS-Dom/Frappe-Manager.git@develop
     info_green "$(bold 'fm' $(pip3 list | grep frappe-manager | awk '{print $2}')) (development) installed."
 }
 

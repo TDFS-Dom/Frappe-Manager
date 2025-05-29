@@ -83,7 +83,7 @@ class MigrationExecutor:
             richprint.print("This process may take a while.", emoji_code="\n:hourglass_not_done:")
 
             richprint.print(
-                "For a manual migration guide, visit https://github.com/rtCamp/Frappe-Manager/wiki/Migrations#manual-migration-procedure",
+                "For a manual migration guide, visit https://github.com/TDFS-Dom/Frappe-Manager/wiki/Migrations#manual-migration-procedure",
                 emoji_code=":blue_book:",
             )
 
