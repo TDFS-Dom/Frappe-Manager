@@ -2,7 +2,7 @@
 set -x
 ARCH=$(uname -m)
 
-IMAGE_NAME_PREFIX="ghcr.io/rtcamp/frappe-manager"
+IMAGE_NAME_PREFIX="domtdfs/frappe-manager"
 COMMAND='docker build --push'
 
 OTHER_ARCH="x86_64"

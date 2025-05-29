@@ -27,7 +27,7 @@ class MigrationV0120(MigrationBase):
 
     def migrate_services(self):
         # Pulling latest image
-        self.image_info = {"tag": self.version.version_string(), "name": "ghcr.io/rtcamp/frappe-manager-frappe"}
+        self.image_info = {"tag": self.version.version_string(), "name": "domtdfs/frappe-manager-frappe"}
         pull_image = f"{self.image_info['name']}:{self.image_info['tag']}"
 
         richprint.change_head(f"Pulling Image {pull_image}")

@@ -211,7 +211,7 @@ def get_all_docker_images():
         prebake_tag = image_tags.get('prebake')
         images.update({
             'prebake': {
-                'name': 'ghcr.io/rtcamp/frappe-manager-prebake',
+                'name': 'domtdfs/frappe-manager-prebake',
                 'tag': prebake_tag
             }
         })

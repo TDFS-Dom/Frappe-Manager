@@ -155,7 +155,7 @@ class MigrationV0170(MigrationBase):
             frappe_image_info,
             redis_image_info,
             nginx_image_info,
-            {'name': f'ghcr.io/rtcamp/frappe-manager-prebake', 'tag': self.version.version_string()},
+            {'name': f'domtdfs/frappe-manager-prebake', 'tag': self.version.version_string()},
         ]:
             pull_image = f"{image['name']}:{image['tag']}"
             if pull_image not in self.pulled_images_list:

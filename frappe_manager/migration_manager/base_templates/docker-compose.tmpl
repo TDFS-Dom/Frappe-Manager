@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   frappe:
-    image: ghcr.io/rtcamp/frappe-manager-frappe:v0.10.0
+    image: domtdfs/frappe-manager-frappe:v0.10.0
     container_name: REPLACE_ME_WITH_CONTAINER_NAME
     restart: always
     environment:
@@ -30,7 +30,7 @@ services:
       - db_root_password
 
   nginx:
-    image: ghcr.io/rtcamp/frappe-manager-nginx:v0.10.0
+    image: domtdfs/frappe-manager-nginx:v0.10.0
     container_name: REPLACE_ME_WITH_CONTAINER_NAME
     user: REPLACE_ME_WITH_CURRENT_USER:REPLACE_ME_WITH_CURRENT_USER_GROUP
     restart: always
@@ -54,7 +54,7 @@ services:
       global-frontend-network:
 
   mailhog:
-    image: ghcr.io/rtcamp/frappe-manager-mailhog:v0.8.3
+    image: domtdfs/frappe-manager-mailhog:v0.8.3
     container_name: REPLACE_ME_WITH_CONTAINER_NAME
     restart: always
     expose:
@@ -76,7 +76,7 @@ services:
       global-backend-network:
 
   socketio:
-    image: ghcr.io/rtcamp/frappe-manager-frappe:v0.10.0
+    image: domtdfs/frappe-manager-frappe:v0.10.0
     container_name: REPLACE_ME_WITH_CONTAINER_NAME
     restart: always
     environment:
@@ -95,7 +95,7 @@ services:
       site-network:
 
   schedule:
-    image: ghcr.io/rtcamp/frappe-manager-frappe:v0.10.0
+    image: domtdfs/frappe-manager-frappe:v0.10.0
     container_name: REPLACE_ME_WITH_CONTAINER_NAME
     restart: always
     environment:

@@ -41,7 +41,7 @@ class MigrationV0110(MigrationBase):
 
         # get v0.11.0 frappe image
         image_info['tag'] = self.version.version_string()
-        image_info['name'] = 'ghcr.io/rtcamp/frappe-manager-frappe'
+        image_info['name'] = 'domtdfs/frappe-manager-frappe'
 
         output = bench.compose_project.docker.pull(
             container_name=f"{image_info['name']}:{image_info['tag']}", stream=True
